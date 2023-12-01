@@ -1,0 +1,57 @@
+/* body{
+    font-family: 'Montserrat', sans-serif;
+    background:url('https://i.ibb.co/JB1y0X5/4690.jpg') ,
+    linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6));
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed; 
+} */
+.home{
+    text-align: left;
+}
+
+.home-container{
+display: flex;
+}
+
+.card-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.card{
+    width: 280px;
+    height: 320px;
+    border: 2px solid gray;
+}
+
+.photo{
+    width: 80px;
+    border-radius: 50px;
+}
+
+.card-img{
+    text-align: center;
+}
+
+.name{
+    text-align: center;
+}
+
+.info{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.detail{
+   margin-left: 20px;
+   margin-right: 20px;
+}
+
+.btn-pry{
+    margin-left: 30%;
+    background-color: aquamarine;
+
+}

@@ -1,0 +1,15 @@
+#root {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 2rem;
+  }
+  
+.movie{
+    text-align: center;
+    color: red;
+    
+}
+
+.main{
+  display: flex;
+}
